@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'CynthoNext-Light';
+  src: url("../fonts/CynthoNext-Light.woff") format("woff"), url("../fonts/CynthoNext-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CynthoNext-Regular';
+  src: url("../fonts/CynthoNext-Regular.woff") format("woff"), url("../fonts/CynthoNext-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CynthoNext-Bold';
+  src: url("../fonts/CynthoNext-Bold.woff") format("woff"), url("../fonts/CynthoNext-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CynthoNext-SemiBold';
+  src: url("../fonts/CynthoNext-SemiBold.woff") format("woff"), url("../fonts/CynthoNext-SemiBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
