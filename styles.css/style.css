@@ -296,7 +296,7 @@ html {
   max-width: 478px;
 }
 
-.hero-content h1 {
+.hero-content h2 {
   color: #383838;
   font-size: 48px;
   margin-bottom: 19px;
@@ -459,8 +459,8 @@ input[name="food"]:checked + .slider-nav-list__item {
   margin: 0 auto;
 }
 
-#minus,
-#plus {
+.minus,
+.plus {
   text-align: center;
   border: none;
   outline: none;
@@ -469,12 +469,12 @@ input[name="food"]:checked + .slider-nav-list__item {
   font-size: 34px;
 }
 
-#minus:hover,
-#plus:hover {
+.minus:hover,
+.plus:hover {
   color: #f1813d;
 }
 
-#amount {
+.amount {
   display: inline-block;
   margin: 0 1px 0 4px;
   color: #383838;
@@ -1159,11 +1159,11 @@ label[for="menu-btn"] {
   .ifDay {
     font-size: 10px;
   }
-  #amount {
+  .amount {
     font-size: 15px;
   }
-  #minus,
-  #plus {
+  .minus,
+  .plus {
     font-size: 30px;
   }
   .product-item__amount {
@@ -1226,7 +1226,7 @@ label[for="menu-btn"] {
   .hero-content {
     max-width: 200px;
   }
-  .hero-content h1 {
+  .hero-content h2 {
     font-size: 22px;
   }
   .site-header__links {

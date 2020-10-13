@@ -245,7 +245,7 @@ html {
 .hero-content {
   max-width: 478px;
 
-  h1 {
+  h2 {
     color: #383838;
     font-size: 48px;
     margin-bottom: 19px;
@@ -366,8 +366,8 @@ input[name="food"] {
   margin: 0 auto;
 }
 
-#minus,
-#plus {
+.minus,
+.plus {
   text-align: center;
   border: none;
   outline: none;
@@ -379,7 +379,7 @@ input[name="food"] {
   }
 }
 
-#amount {
+.amount {
   display: inline-block;
   margin: 0 1px 0 4px;
   color: #383838;
@@ -989,11 +989,11 @@ label[for="menu-btn"] {
   .ifDay {
     font-size: 10px;
   }
-  #amount {
+  .amount {
     font-size: 15px;
   }
-  #minus,
-  #plus {
+  .minus,
+  .plus {
     font-size: 30px;
   }
   .product-item__amount {
@@ -1055,7 +1055,7 @@ label[for="menu-btn"] {
   }
   .hero-content {
     max-width: 200px;
-    h1 {
+    h2 {
       font-size: 22px;
     }
   }
