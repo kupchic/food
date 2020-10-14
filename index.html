@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css/fonts.css">
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="./styles.css/style.css">
   <title>Document</title>
 </head>
@@ -19,7 +19,7 @@
           <li><a href="#" target="_blank" rel="noopener noreferrer"></a></li>
           <li><a href="#" target="_blank" rel="noopener noreferrer"></a></li>
           <li><a href="#" target="_blank" rel="noopener noreferrer"></a></li>
-          <a href="#" class="inst-link"></a>
+          <li><a href="#" target="_blank" rel="noopener noreferrer"></a></li>
         </ul>
       </div>
       <div class="site-header__nav">
@@ -130,8 +130,8 @@
         </div>
 
         <div class="slider">
-          <div class="slider-btn-prev slider-one-prev"></div>
-          <div class="slider-btn-next slider-one-next"></div>
+          <button class="slider-btn-prev slider-one-prev"></button>
+          <button class="slider-btn-next slider-one-next"></button>
           <div class="slider-wrp  slider-wrp_diner">
             <div class="product-item ">
               <img src="./img/salat-png.png" class="product-item__img" alt="IMG">
@@ -200,6 +200,42 @@
                 </div>
               </div>
             </div>
+            <div class="product-item">
+              <img src="./img/salat-png.png" class="product-item__img" alt="IMG">
+              <div class="product-item__order">
+                <p class="product-item__order__name">Морковный крем-суп <br> с имбирем и печеным нутом</p>
+                <div class="product-item__price">
+                  <span class="product-item__weight">170г</span>
+                  <span class="product-item__value">2.5р</span>
+                </div>
+                <div class="product-item__amount">
+                  <div class="product-item__add">
+                    <button class="minus">-</button>
+                    <span class="amount">2</span>
+                    <button class="plus">+</button>
+                  </div>
+                  <button class="backet button-main">в корзину</button>
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <img src="./img/salat-png.png" class="product-item__img" alt="IMG">
+              <div class="product-item__order">
+                <p class="product-item__order__name">Морковный крем-суп <br> с имбирем и печеным нутом</p>
+                <div class="product-item__price">
+                  <span class="product-item__weight">170г</span>
+                  <span class="product-item__value">2.5р</span>
+                </div>
+                <div class="product-item__amount">
+                  <div class="product-item__add">
+                    <button class="minus">-</button>
+                    <span class="amount">2</span>
+                    <button class="plus">+</button>
+                  </div>
+                  <button class="backet button-main">в корзину</button>
+                </div>
+              </div>
+            </div>
 
           </div>
         </div>
@@ -242,6 +278,24 @@
                 </div>
                 <div class="product-item__amount">
                   <p class="ifDay">Только во вторник</p>
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <img src="./img/strawberry-png.png" class="product-item__img" alt="IMG">
+              <div class="product-item__order">
+                <p class="product-item__order__name">Морковный крем-суп <br> с имбирем и печеным нутом</p>
+                <div class="product-item__price">
+                  <span class="product-item__weight">170г</span>
+                  <span class="product-item__value">2.5р</span>
+                </div>
+                <div class="product-item__amount">
+                  <div class="product-item__add">
+                    <button class="minus">-</button>
+                    <span class="amount">2</span>
+                    <button class="plus">+</button>
+                  </div>
+                  <button class="backet button-main">в корзину</button>
                 </div>
               </div>
             </div>
@@ -478,22 +532,43 @@
       <div class="container">
         <h2 class="block-title">Отзывы</h2>
         <div class="review-slider-wrp">
-          <span class="next-btn"></span>
-          <span class="prev-btn"></span>
-          <div class="review-text">
-            <p class="block-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
-              laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic
-              tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum,
-              nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
-            <h2 class="review-user">Алексей</h2>
-            <div class="review-mark">
-              <span class="review-mark__apple"></span>
-              <span class="review-mark__apple"></span>
-              <span class="review-mark__apple"></span>
-              <span class="review-mark__apple"></span>
-              <span class="review-mark__apple review-mark__apple_non"></span>
+          <button class="next-btn"></button>
+          <button class="prev-btn"></button>
+          <div class="review-slider">
+            <div class="review-text">
+              <p class="block-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar
+                sic
+                tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum,
+                nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.
+              </p>
+              <h2 class="review-user">Алексей</h2>
+              <div class="review-mark">
+                <span class="review-mark__apple"></span>
+                <span class="review-mark__apple"></span>
+                <span class="review-mark__apple"></span>
+                <span class="review-mark__apple"></span>
+                <span class="review-mark__apple review-mark__apple_non"></span>
+              </div>
+            </div>
+            <div class="review-text">
+              <p class="block-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar
+                sic
+                tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum,
+                nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.
+              </p>
+              <h2 class="review-user">Алексей</h2>
+              <div class="review-mark">
+                <span class="review-mark__apple"></span>
+                <span class="review-mark__apple"></span>
+                <span class="review-mark__apple"></span>
+                <span class="review-mark__apple"></span>
+                <span class="review-mark__apple review-mark__apple_non"></span>
+              </div>
             </div>
           </div>
+
         </div>
         <div class="review-btns">
           <button class="btn-sized write-review">Написать отзыв</button>
