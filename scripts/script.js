@@ -10,6 +10,7 @@ menuButton.addEventListener('click', () => {
       if (target.id === 'mobile-menu') {
         document.getElementById('mobile-menu').style.display = 'none';
         menuButton.classList.remove('menu-button__active');
+        document.getElementsByTagName('html')[0].classList.remove('overfl');
       }
     });
   } else document.getElementById('mobile-menu').style.display = 'none';
